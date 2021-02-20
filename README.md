@@ -22,11 +22,11 @@ En este ejercicio se va a construír un modelo de clases para la capa lógica de
 	* Configurar la aplicación -mediante anotaciones- para que el esquema de persistencia sea inyectado al momento de ser creado el bean 'BlueprintServices'.
 
 * A partir de lo descrito anteriormente, se procede a indicar como se realizaron estos puntos mencioandos anteriormente:
-	* Depedencias de Spring
+	* Dependencias de Spring
 	 ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-	   	   ARSW/blob/main/img/media/dependencias%20parte%201%2C%20item%201.png)
-	 * Configuracion del Spring
+	 * Configuración del Spring
 	 ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/conf%20spring%20parte%201%2C%20item%202.png)
-	 * Configuracion de aplicaciones mediante anotaciones.
+	 *Configuración de aplicaciones mediante anotaciones.
 	 ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/parte%201%2C%20item%203.png)
 	 
 	 
@@ -34,12 +34,12 @@ En este ejercicio se va a construír un modelo de clases para la capa lógica de
 
 2. Complete los operaciones getBluePrint() y getBlueprintsByAuthor(). Implemente todo lo requerido de las capas inferiores (por ahora, el esquema de persistencia disponible 'InMemoryBlueprintPersistence') agregando las pruebas correspondientes en 'InMemoryPersistenceTest'.
 
- * A continuación veremos una documentacion del punto 2, en dodne podremos evidenciar la realizacion de las clases, asi como su proceso.
+ * A continuación, veremos una documentación del punto 2, en donde podremos evidenciar la realización de las clases, así como su proceso.
    
-   * Realizacíón de operaciones de getBluePrint()
+   * Realización de operaciones de getBluePrint()
     ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/GetBluePrint.png)
     
-    * Realizacion de getBlueprintsByAuthor()
+    * Realización de getBlueprintsByAuthor()
     ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/GetBlueprintbyauthor.png)
     
     * Realización de requerimientos de las capas inferiores, mediante el esquema de persistencia.
@@ -56,19 +56,18 @@ En este ejercicio se va a construír un modelo de clases para la capa lógica de
 	* (A) Filtrado de redundancias: suprime del plano los puntos consecutivos que sean repetidos.
 	* (B) Filtrado de submuestreo: suprime 1 de cada 2 puntos del plano, de manera intercalada.
 
-* Se realiza la documentacion respectiva de los items anteriormente requeridos ,especificados de la siguiente forma: 
-
-     * Creacion de clase de Filtrado de redundancias.
+* Se realiza la documentación respectiva de los ítems anteriormente requeridos ,especificados de la siguiente forma:
+     * Creación de clase de Filtrado de redundancias.
      ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/Parte%202%2C%20item%204%20filtro%20redundancia.png)
      
-     * Creacion de Filtrado de submuestreo.
+     * Creación de Filtrado de submuestreo.
      ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/parte%202%2C%20item%204%20filtro%20submuestreo.png)
      
      
 
 5. Agrege las pruebas correspondientes a cada uno de estos filtros, y pruebe su funcionamiento en el programa de prueba, comprobando que sólo cambiando la posición de las anotaciones -sin cambiar nada más-, el programa retorne los planos filtrados de la manera (A) o de la manera (B). 
 
-* A continuacion se puede evidenciar la creación de pruebas para la implemementacion de las clases creadas en el punto 4:
+* A continuación, se puede evidenciar la creación de pruebas para la implementación de las clases creadas en el punto 4:
    * Pruebas para La clase de Filtrado de redundancias.
    ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/pruebas%20redudancia%20punto%205.png)
    
