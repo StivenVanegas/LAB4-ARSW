@@ -21,8 +21,31 @@ En este ejercicio se va a construír un modelo de clases para la capa lógica de
 	* Agregar la configuración de Spring.
 	* Configurar la aplicación -mediante anotaciones- para que el esquema de persistencia sea inyectado al momento de ser creado el bean 'BlueprintServices'.
 
+* A partir de lo descrito anteriormente, se procede a indicar como se realizaron estos puntos mencioandos anteriormente:
+	* Depedencias de Spring
+	 ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-	   	   ARSW/blob/main/img/media/dependencias%20parte%201%2C%20item%201.png)
+	 * Configuracion del Spring
+	 ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/conf%20spring%20parte%201%2C%20item%202.png)
+	 * Configuracion de aplicaciones mediante anotaciones.
+	 ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/parte%201%2C%20item%203.png)
+	 
+	 
+
 
 2. Complete los operaciones getBluePrint() y getBlueprintsByAuthor(). Implemente todo lo requerido de las capas inferiores (por ahora, el esquema de persistencia disponible 'InMemoryBlueprintPersistence') agregando las pruebas correspondientes en 'InMemoryPersistenceTest'.
+
+ * A continuación veremos una documentacion del punto 2, en dodne podremos evidenciar la realizacion de las clases, asi como su proceso.
+   
+   * Realizacíón de operaciones de getBluePrint()
+    ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/GetBluePrint.png)
+    
+    * Realizacion de getBlueprintsByAuthor()
+    ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/GetBlueprintbyauthor.png)
+    
+    * Realización de requerimientos de las capas inferiores, mediante el esquema de persistencia.
+    ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/parte%202%2C%20item%202%20parte%20dos.png)
+    
+  
 
 3. Haga un programa en el que cree (mediante Spring) una instancia de BlueprintServices, y rectifique la funcionalidad del mismo: registrar planos, consultar planos, registrar planos específicos, etc.
 
