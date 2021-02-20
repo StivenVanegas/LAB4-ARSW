@@ -49,8 +49,21 @@ En este ejercicio se va a construír un modelo de clases para la capa lógica de
 
 3. Haga un programa en el que cree (mediante Spring) una instancia de BlueprintServices, y rectifique la funcionalidad del mismo: registrar planos, consultar planos, registrar planos específicos, etc.
 
+   * Creación del programa mediante Spring creando Instancias.
+   ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/Parte%202%2C%20item%203.png)
+
 4. Se quiere que las operaciones de consulta de planos realicen un proceso de filtrado, antes de retornar los planos consultados. Dichos filtros lo que buscan es reducir el tamaño de los planos, removiendo datos redundantes o simplemente submuestrando, antes de retornarlos. Ajuste la aplicación (agregando las abstracciones e implementaciones que considere) para que a la clase BlueprintServices se le inyecte uno de dos posibles 'filtros' (o eventuales futuros filtros). No se contempla el uso de más de uno a la vez:
 	* (A) Filtrado de redundancias: suprime del plano los puntos consecutivos que sean repetidos.
 	* (B) Filtrado de submuestreo: suprime 1 de cada 2 puntos del plano, de manera intercalada.
+
+* Se realiza la documentacion respectiva de los items anteriormente requeridos ,especificados de la siguiente forma: 
+
+     * Creacion de clase de Filtrado de redundancias.
+     ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/Parte%202%2C%20item%204%20filtro%20redundancia.png)
+     
+     * Creacion de Filtrado de submuestreo.
+     ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/parte%202%2C%20item%204%20filtro%20submuestreo.png)
+     
+     
 
 5. Agrege las pruebas correspondientes a cada uno de estos filtros, y pruebe su funcionamiento en el programa de prueba, comprobando que sólo cambiando la posición de las anotaciones -sin cambiar nada más-, el programa retorne los planos filtrados de la manera (A) o de la manera (B). 
