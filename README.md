@@ -67,3 +67,10 @@ En este ejercicio se va a construír un modelo de clases para la capa lógica de
      
 
 5. Agrege las pruebas correspondientes a cada uno de estos filtros, y pruebe su funcionamiento en el programa de prueba, comprobando que sólo cambiando la posición de las anotaciones -sin cambiar nada más-, el programa retorne los planos filtrados de la manera (A) o de la manera (B). 
+
+* A continuacion se puede evidenciar la creación de pruebas para la implemementacion de las clases creadas en el punto 4:
+   * Pruebas para La clase de Filtrado de redundancias.
+   ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/pruebas%20redudancia%20punto%205.png)
+   
+   * Pruebas para La clase de Filtrado de submuestreo.
+   ![texto cualquiera por si no carga la imagen](https://github.com/StivenVanegas/LAB4-ARSW/blob/main/img/media/pruebas%20submuestreo%2C%20punto%205.png)
